@@ -1,7 +1,8 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div class="flex-container" *ngFor="let item of [0,1,2,3,4,5,6,7,8,9]">
-  <div class="flex-item" *ngFor="let initem of [1,2,3,4,5,6,7,8,9]">
-    {{initem}}
+<div class="flex-container" *ngFor="let item of [0,1]">
+  <div class="flex-item" *ngFor="let initem of [1,2,3,4,5]">
+    <app-image></app-image>
+      <!-- <canvas style="height:100%;width:100%;"></canvas> -->
   </div>
 </div>
 
