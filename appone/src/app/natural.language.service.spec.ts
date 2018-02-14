@@ -2,7 +2,7 @@ import { TestBed, inject } from '@angular/core/testing';
 
 import { NaturalLanguageService } from './natural.language.service';
 
-describe('Natural.LanguageService', () => {
+describe('NaturalLanguageService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       providers: [NaturalLanguageService]
