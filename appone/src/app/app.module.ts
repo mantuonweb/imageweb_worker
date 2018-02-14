@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-
+import { NaturalLanguageService } from './natural.language.service';
 
 @NgModule({
   declarations: [
@@ -13,7 +13,7 @@ import { AppComponent } from './app.component';
     FormsModule,
     BrowserModule
   ],
-  providers: [],
+  providers: [NaturalLanguageService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
