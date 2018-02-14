@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
+import { NplmoduleModule } from './nplmodule/nplmodule.module';
 import { NaturalLanguageService } from './natural.language.service';
 
 @NgModule({
@@ -11,7 +12,8 @@ import { NaturalLanguageService } from './natural.language.service';
   ],
   imports: [
     FormsModule,
-    BrowserModule
+    BrowserModule,
+    NplmoduleModule
   ],
   providers: [NaturalLanguageService],
   bootstrap: [AppComponent]
