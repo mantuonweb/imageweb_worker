@@ -11,7 +11,7 @@
         binaryData = canvasData.data;
         pixels = e.data.length;
         count = e.data.count;
-       colorFilter(binaryData, pixels);
+        colorFilter(binaryData, pixels);
         s.postMessage({
             "canvasData": canvasData,
             "count": count
