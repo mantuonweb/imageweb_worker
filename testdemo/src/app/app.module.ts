@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-
+import { FormsModule } from '@angular/forms';
 import { RoutemanagementModule } from './routemanagement/routemanagement.module';
 
 @NgModule({
@@ -12,8 +12,12 @@ import { RoutemanagementModule } from './routemanagement/routemanagement.module'
   ],
   imports: [
     BrowserModule,
+    FormsModule,
+
+    //User defined Modules
     RoutemanagementModule
   ],
+  exports:[FormsModule],
   providers: [],
   bootstrap: [AppComponent]
 })

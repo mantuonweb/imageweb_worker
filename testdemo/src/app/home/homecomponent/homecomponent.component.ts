@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./homecomponent.component.scss']
 })
 export class HomecomponentComponent implements OnInit {
-
+  myinput="";
   constructor() { }
 
   ngOnInit() {
